@@ -1,33 +1,33 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    name: "ProductFlo",
+    image: "/logo.png",
+    role: "End-to-end hardware Product Development Platform",
+    bio: "Develop products 3 times faster at 1/10th of the cost, allowing quicker and safer go-to-market. Find, Hire & Collaborate with vetted product engineers and manufacturers.",
+    email: "hello@productflo.io",
+    linkedin: "ProductFlo-io",
+    github: "Wearer-Lab",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `ProductFlo.io`,
+      href: "https://productflo.io",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "🗞️ || ProductFlo Blogs",
+    description: "welcome to productFlo Blog!",
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://blog.productflo.io",
+  since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://og-image-korean.vercel.app/ProdutFlo.io.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg&images=https%3A%2F%2Fproductflo.io%2Fglobal%2Fimages%2Flogo.png", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
